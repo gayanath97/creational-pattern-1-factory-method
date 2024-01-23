@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public interface Button {
+package button;
+
+public interface Button {
+    void render();
+    void onClick();
 }
